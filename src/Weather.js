@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import { Audio } from 'react-loader-spinner';
 
 export default function Weather(props){
     function displayForecast(response){
@@ -11,6 +12,14 @@ export default function Weather(props){
   axios.get(apiUrl).then(displayForecast);
 
 
-      return  <h2>Hello from weather section</h2>;
+      return  <Audio
+      height="80"
+      width="80"
+      radius="9"
+      color="green"
+      ariaLabel="loading"
+      wrapperStyle
+      wrapperClass
+    />;
 
 }
