@@ -7,11 +7,7 @@ ul {
     text-transform: capitalize;
    margin: 10px 0 5px;
   }
-  .weather-app-wrapper {
-    max-width: 800px;
-    margin: 30px auto;
-  }
-  .Weather {
+  .container {
     border: 1px solid;
     border-color: gray;
     border-radius: 24   px;
@@ -19,8 +15,8 @@ ul {
     padding: 50px;
     width: 600px;
     height: 350px;
-    
   }
+ 
   .col-6{
     text-align: left;
   
@@ -79,14 +75,14 @@ ul {
   .currentTemp .active:hover {
     text-decoration: none;
   }
-  .weather-forecast {
-    margin-top: 20px;
-    text-align:center;
-    color: #000;
-  }
+ 
   .weather-forecast-date {
     font-size: 16px;
     color: #000;
+    margin-top: 50px;
+    text-align: justify;
+    display: block;
+
   }
   .weather-forecast-min {
     opacity: 0.5;
@@ -101,7 +97,7 @@ ul {
     height: calc(1.5em + .75rem + 2px);
     }
     .btn-primary{
-        width: 10%;
+     width: 10%;
     height: calc(1.5em + .75rem + 2px);
     float:left;
     }

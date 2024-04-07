@@ -13,7 +13,8 @@ import "./Weather.css";
           wind: 9,
         };
         return (
-          <div className="Weather" >
+            <div className="container">
+            <div className="weather">
             <form>
               <div className="row">
                 <div className="col-9">
@@ -29,9 +30,10 @@ import "./Weather.css";
                     value="search"
                     className="btn btn-primary w-300"
                   />
+                  </div>
                 </div>
-              </div>
-            </form>
+              </form>
+            </div>
             <div className="weatherInfo">
               <div className="row">
                 <div className="col-6">
@@ -59,18 +61,112 @@ import "./Weather.css";
                         <strong className="dayTemp">{weatherData.temperature}</strong>
                         </span>
                         <span className="Degrees"> °F/°C </span>
-                         
-                      
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="weather-forecast"></div>
-            </div>
-          </div>
+              </div>
+                           
+             <div className="weather-forecast" >
+                <div className="row">
+                    <div className="col-2">
+                        <div className="weather-forecast-date"> Sun</div>
+                        <img
+                    src= "https://openweathermap.org/img/wn/02d@2x.png"
+                    alt=""
+                    width="42"
+                  />
+                    <div className="weather-forecast-temperature">
+                        <span className="weahter-forcast-max">73° </span>/ 
+                        <span className="weahter-forcast-min"> 63°</span>
+                        </div>
+                   </div>
+                   <div className="col-2">
+                   <div className="weather-forecast-date"> Mon</div>
+                        <img
+                    src= "https://openweathermap.org/img/wn/02d@2x.png"
+                    alt=""
+                    width="42"
+                  />
+                    <div className="weather-forecast-temperature">
+                        <span className="weahter-forcast-max">73° </span>/ 
+                        <span className="weahter-forcast-min"> 63°</span>
+                        </div>
+                   </div>
+                   <div className="col-2">
+                   <div className="weather-forecast-date"> Tue</div>
+                        <img
+                    src= "https://openweathermap.org/img/wn/02d@2x.png"
+                    alt=""
+                    width="42"
+                  />
+                    <div className="weather-forecast-temperature">
+                        <span className="weahter-forcast-max">73° </span>/ 
+                        <span className="weahter-forcast-min"> 63°</span>
+                        </div>
+                   </div>
+                   <div className="col-2">
+                   <div className="weather-forecast-date"> Wed</div>
+                        <img
+                    src= "https://openweathermap.org/img/wn/02d@2x.png"
+                    alt=""
+                    width="42"
+                  />
+                    <div className="weather-forecast-temperature">
+                        <span className="weahter-forcast-max">73° </span>/ 
+                        <span className="weahter-forcast-min"> 63°</span>
+                        </div>
+                   </div>
+                   </div>
+                   <div className="col-2">
+                   <div className="weather-forecast-date"> Thu</div>
+                        <img
+                    src= "https://openweathermap.org/img/wn/02d@2x.png"
+                    alt=""
+                    width="42"
+                  />
+                    <div className="weather-forecast-temperature">
+                        <span className="weahter-forcast-max">73° </span>/ 
+                        <span className="weahter-forcast-min"> 63°</span>
+                        </div>
+                   </div>
+                   </div>
+                                  
+                   <div className="col-2">
+                   <div className="weather-forecast-date"> Fri</div>
+                        <img
+                    src= "https://openweathermap.org/img/wn/02d@2x.png"
+                    alt=""
+                    width="42"
+                  />
+                    <div className="weather-forecast-temperature">
+                        <span className="weahter-forcast-max">73° </span>/ 
+                        <span className="weahter-forcast-min"> 63°</span>
+                        </div>
+                   </div>
+                   <div className="col-2">
+                   <div className="weather-forecast-date"> Sat</div>
+                        <img
+                    src= "https://openweathermap.org/img/wn/02d@2x.png"
+                    alt=""
+                    width="42"
+                  />
+                    <div className="weather-forecast-temperature">
+                        <span className="weahter-forcast-max">73° </span>/ 
+                        <span className="weahter-forcast-min"> 63°</span>
+                        </div>
+                   </div>
+                   </div>
+
+                   
+             
+
+            
+
+            
+         
+          
+                
         );
       
-    
-
-
 }
