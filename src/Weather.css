@@ -15,11 +15,11 @@ ul {
     padding: 50px;
     width: 600px;
     height: 350px;
+    display: block;
   }
  
   .col-6{
     text-align: left;
-  
     float:left;
   }
 
@@ -81,9 +81,9 @@ ul {
     color: #000;
     margin-top: 50px;
     text-align: justify;
-    display: block;
+   display: block;
 
-  }
+  }  
   .weather-forecast-min {
     opacity: 0.5;
   }
@@ -91,7 +91,6 @@ ul {
     font-size: 13px;
   }
     .form-control{
-    display: block;
     float: left;
     width: 50%;
     height: calc(1.5em + .75rem + 2px);
