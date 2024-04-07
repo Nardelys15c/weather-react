@@ -6,7 +6,7 @@ import "./Weather.css";
         let weatherData = {
           city: "Sebastian",
           temperature: 78,
-          date: "Saturday 13:45",
+          date: "Sunday, 15:37",
           description: "Mostly Cloudy",
           src: "https://openweathermap.org/img/wn/02d@2x.png",
           humidity: 48,
@@ -38,9 +38,10 @@ import "./Weather.css";
               <div className="row">
                 <div className="col-6">
                   <h1>{weatherData.city}</h1>
+                 
                   <ul>
                     <li>
-                      <span>April 7, 2024</span>
+                      <span className="date">{weatherData.date}</span>
                       <span>, {weatherData.description}</span>
                     </li>
                     <li>
@@ -51,32 +52,36 @@ import "./Weather.css";
                   </ul>
                 </div>
                 <div className="col-lg-6">
-                  <div className="temperature-container d-flex justify-content-end">
+                  <div className="temperature-container">
                     <div className="currentTemp">
                       <span className="thunderStorms">
                         <img src={weatherData.src} alt={weatherData.description} />
-                      </span>
-                        <span className="temperature"></span>
                             <span className="units">
                         <strong className="dayTemp">{weatherData.temperature}</strong>
+                         <small className="size-units">°F/°C</small>
+
                         </span>
-                        <span className="Degrees"> °F/°C </span>
+                        </span>
                     </div>
                   </div>
                 </div>
-              </div>
-              </div>
-                           
-            </div>
-                   
-             
-
-            
-
-            
-         
-          
                 
+              </div>
+              
+              </div>
+        
+             </div>                        
+                 
         );
       
 }
+<p>
+<small>
+<a
+href="https://github.com/Nardelys15c/weather-react.git"
+target="_blank1" rel="noreferrer"
+>Open-source code</a
+>
+By Nardelys Caraballo
+</small>
+</p>

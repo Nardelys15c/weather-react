@@ -7,6 +7,8 @@ ul {
     text-transform: capitalize;
    margin: 10px 0 5px;
   }
+
+
   .container {
     border: 1px solid;
     border-color: gray;
@@ -15,7 +17,7 @@ ul {
     padding: 50px;
     width: 600px;
     height: 350px;
-    display: block;
+    
   }
  
   .col-6{
@@ -31,11 +33,12 @@ ul {
     line-height: 48px;
     margin: 5px 0 5px;
     float:left;
+
     
   }
   .currentTemp {
     margin: 20px 0 10px;
-   Float:right;
+   
   }
   .dayTemp {
     padding: 5px;
@@ -44,9 +47,11 @@ ul {
     line-height: 1;
     
   }
+  
   .thunderStorms {
-    padding: 20px;
-    font-size: 60px;
+    padding: 15px;
+    font-size: 45px;
+    
   }
   .temperature {
     padding: 5px;
@@ -57,17 +62,14 @@ ul {
   }
   .units {
     padding: 0%;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     position: relative;
-    top: -30px;
+    top: -20px;
   }
- 
-    .Degrees{
-        position: relative;
-        top: -60px;
-      }
-  
+  .date{
+    text-align: left;
+  } 
   .currentTemp .active {
     color: rgb(31, 29, 29);
     cursor: default;
