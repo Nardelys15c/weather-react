@@ -75,13 +75,3 @@ import "./Weather.css";
         );
       
 }
-<p>
-<small>
-<a
-href="https://github.com/Nardelys15c/weather-react.git"
-target="_blank1" rel="noreferrer"
->Open-source code</a
->
-By Nardelys Caraballo
-</small>
-</p>
